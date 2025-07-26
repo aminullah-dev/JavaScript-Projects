@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    color: darkorange;
+}
+
+.calculator {
+    margin-top: 10px;
+}
+
+#display {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.button-row button {
+    font-size: 18px;
+    padding: 10px 14px;
+    min-width: 40px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-row button:hover {
+    background-color: #ddd;
+}
